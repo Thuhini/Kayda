@@ -7,10 +7,24 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Kayda') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/aos.js') }}" defer></script>
+    <script src="{{ asset('js/bootstrap-datepicker.js') }}" defer></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery-3.3.1.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery-migrate-3.0.1.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.fancybox.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.stellar.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.timepicker.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.validate.min.js') }}" defer></script>
+    <script src="{{ asset('js/jquery.waypoints.min.js') }}" defer></script>
+    <script src="{{ asset('js/main.js') }}" defer></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}" defer></script>
+    <script src="{{ asset('js/popper.min.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +32,20 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/_custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-datepicker.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-grid.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-reboot.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css.map') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fancybox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/jquery.timepicker.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
