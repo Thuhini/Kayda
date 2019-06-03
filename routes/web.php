@@ -20,6 +20,9 @@ Route::get('/reservation', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+});
 
 Auth::routes();
 
