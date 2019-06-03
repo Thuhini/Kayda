@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/reservation', function () {
     return view('reservation');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Auth::routes();
 
