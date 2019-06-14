@@ -24,6 +24,11 @@ Route::get('/aboutUs', function () {
     return view('aboutUs');
 });
 
+// route to handle report payments
+Route::post('addReservation', [
+    'uses' => 'ReservationController@addReservtionDetail',
+    'as' => 'addReservation'
+]);
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
